@@ -4,7 +4,7 @@ sudo apt install -y wget gnupg software-properties-common
 wget -qO - https://packages.adoptium.net/artifactory/api/gpg/key/public | sudo apt-key add -
 sudo add-apt-repository --yes https://packages.adoptium.net/artifactory/deb
 sudo apt update
-sudo apt install temurin-21-jdk
+sudo apt install temurin-21-jdk -y
 /usr/bin/java --version
 
 #install jenkins
